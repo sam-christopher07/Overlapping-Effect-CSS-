@@ -1,0 +1,23 @@
+.gallery {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    
+    object-fit: cover;
+    position: sticky;
+    top: 0;
+}
+
+.design {
+    border: 7px solid rgb(224, 141, 131);
+    margin:12px; 
+}
